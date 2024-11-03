@@ -1,0 +1,29 @@
+
+.submenu {
+    position: relative;
+    display: inline-block; 
+    margin: 20px;
+}
+
+#carrito {
+    display: none;
+    position: absolute ; 
+    right: 0;
+    top: 100%; 
+    background-color: rgb(27, 33, 72);
+    padding: 20px;
+    width:auto; 
+    z-index: 10; 
+}
+
+.submenu:hover #carrito {
+    display: block;
+}
+
+#hero {
+    background-image: url('./img/banner.png');
+    height: 400px;
+    background-size: cover; 
+    background-position: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
